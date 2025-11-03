@@ -13649,3 +13649,10 @@ Entries:
   id: 1510
   time: '2025-11-03T22:20:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2551
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: Sevastapol has improved security further due to increased bombing
+  id: 1511
+  time: '2025-11-03T23:50:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2463
