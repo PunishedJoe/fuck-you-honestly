@@ -13642,3 +13642,10 @@ Entries:
   id: 1509
   time: '2025-11-03T16:25:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2366
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: seafood
+  id: 1510
+  time: '2025-11-03T22:20:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2551
