@@ -15121,3 +15121,10 @@ Entries:
   id: 1676
   time: '2025-12-22T08:14:30.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2847
+- author: cloudyias
+  changes:
+    - type: Tweak
+      message: Reduced chimera biomass slowdown to 75%
+  id: 1677
+  time: '2025-12-23T16:10:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2815
