@@ -1,0 +1,12 @@
+- type: entity
+  id: BulletPistol9mm
+  name: bullet (9x19 Parabellum)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 21
+  - type: StaminaDamageOnCollide
+    damage: 5 # 20 hits to stun lol

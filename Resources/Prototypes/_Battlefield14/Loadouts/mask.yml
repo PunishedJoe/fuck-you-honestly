@@ -1,0 +1,10 @@
+- type: loadout
+  id: LoadoutMaskBF14NeckGaiter # BF14 | conquered not stolen
+  category: Mask
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingMaskNeckGaiter
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMasks

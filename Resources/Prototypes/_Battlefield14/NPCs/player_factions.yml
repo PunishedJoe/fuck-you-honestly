@@ -1,0 +1,12 @@
+# USED FOR FACTION DISGUISING AND AUTOPD SYSTEM
+# .2 | 2025
+
+- type: npcFaction
+  id: PACT
+  hostile:
+    - NATO
+
+- type: npcFaction
+  id: NATO
+  hostile:
+    - PACT

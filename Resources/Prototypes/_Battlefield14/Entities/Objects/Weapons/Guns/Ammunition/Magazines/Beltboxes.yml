@@ -1,0 +1,29 @@
+- type: entity
+  # COMMENTED OUT: Missing parent 'BaseMagazineRifle'
+  # parent: BaseMagazineRifle
+  parent: BaseItem
+  id: MagazineBeltBoxM249
+  name: "M249 belt box (5.56x45)"
+  description: A big box that has a belt in it, for 5.56x45 millimeter ammo.
+  components:
+  - type: Tag
+    tags:
+      - MagazineBeltBoxM249
+  - type: Item
+    size: Normal
+    shape:
+      - 0,0,2,1 # 3 wide, basically 3 magazines wide 
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle556
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle556
+    capacity: 200
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Ammunition/BeltBoxes/M249.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

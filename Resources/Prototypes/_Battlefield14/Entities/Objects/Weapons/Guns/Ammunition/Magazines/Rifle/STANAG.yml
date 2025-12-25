@@ -1,0 +1,26 @@
+- type: entity
+  # COMMENTED OUT: Missing parent 'BaseMagazineRifle'
+  # parent: BaseMagazineRifle
+  parent: BaseItem
+  id: MagazineRifleSTANAG
+  name: "STANAG magazine (5.56x45)"
+  description: STANdardised AGreement magazine, standard for most NATO weaponry, can fit in platforms like the M16, L85, and the M249 believe it or not.
+  components:
+  - type: Tag
+    tags:
+      - MagazineRifleSTANAG
+      - Magazine
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle556
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle556
+    capacity: 30
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/Ammunition/Magazines/Rifle/STANAG.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

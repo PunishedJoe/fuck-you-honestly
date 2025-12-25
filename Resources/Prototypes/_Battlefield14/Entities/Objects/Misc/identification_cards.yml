@@ -1,0 +1,108 @@
+# USMC
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCSquadLeaderIDCard
+  name: Marine Corps ID card
+  components:
+  - type: PresetIdCard
+    job: USMCSquadLeader
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCRiflemanIDCard
+  name: Marine Corps ID card
+  components:
+  - type: PresetIdCard
+    job: USMCRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCAutomaticRiflemanIDCard
+  name: Marine Corps ID card
+  components:
+  - type: PresetIdCard
+    job: USMCAutomaticRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCMedicIDCard
+  name: Marine Corps ID card
+  components:
+  - type: PresetIdCard
+    job: USMCMedic
+
+- type: entity
+  parent: IDCardStandard
+  id: USMCReconIDCard
+  name: Marine Corps ID card
+  components:
+  - type: PresetIdCard
+    job: USMCRecon
+
+# VDV
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVSquadLeaderIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVSquadLeader
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVRiflemanIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVAutomaticRiflemanIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVAutomaticRifleman
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVMedicIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVMedic
+
+- type: entity
+  parent: IDCardStandard
+  id: VDVReconIDCard
+  name: VDV ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: VDVRecon

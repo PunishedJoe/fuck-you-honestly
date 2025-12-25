@@ -1,0 +1,17 @@
+- type: entity
+  id: SyringeCaseFilledBF14
+  parent: SyringeCase
+  suffix: Filled, BF14
+  components:
+  - type: StorageFill
+    contents:
+    - id: Syringe
+    - id: MorphineChemistryBottle # Tramadol
+    - id: EpinephrineChemistryBottle # these are mostly to show off the sprite
+    - id: EmergencyMedipen
+    - id: PainMedipen
+    - id: CartridgeBicaridine
+      amount: 2
+    - id: CartridgeSaline
+      amount: 2
+    - id: CartridgeAtropine

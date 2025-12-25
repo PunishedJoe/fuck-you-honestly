@@ -1,0 +1,68 @@
+- type: entity
+  parent: PouchMagsPistolLarge
+  id: PouchMagsPistolLargeFilledMP5
+  suffix: Filled, MP5
+  components:
+  - type: StorageFill
+    contents:
+    - id: MagazineSubmachinegunMP5
+      amount: 6
+
+- type: entity
+  parent: PouchMagsPistolLarge
+  id: PouchMagsPistolLargeFilledVityaz
+  suffix: Filled, Vityaz
+  components:
+  - type: StorageFill
+    contents:
+    - id: MagazineSubmachinegunVityaz
+      amount: 6
+
+- type: entity
+  parent: PouchGrenades
+  id: PouchGrenadesFilledUSMCRifleman
+  suffix: Filled, USMC Rifleman
+  components:
+  - type: StorageFill
+    contents:
+    - id: MK21Handgrenade
+      amount: 3
+    - id: USM18SmokeHandgrenade
+      amount: 3
+
+- type: entity
+  parent: PouchGrenades
+  id: PouchGrenadesFilledUSMCScout
+  suffix: Filled, USMC Scout
+  components:
+  - type: StorageFill
+    contents:
+    - id: MK21Handgrenade # Flashbangs
+      amount: 3
+    - id: USM18SmokeHandgrenade
+      amount: 3
+
+- type: entity
+  parent: PouchGrenades
+  id: PouchGrenadesFilledVDVRifleman
+  suffix: Filled, VDV Rifleman
+  components:
+  - type: StorageFill
+    contents:
+    - id: RURGD5Handgrenade
+      amount: 2
+    - id: RGOImpactHandgrenade
+    - id: RURDG2SmokeHandgrenade
+      amount: 3
+
+- type: entity
+  parent: PouchGrenades
+  id: PouchGrenadesFilledVDVScout
+  suffix: Filled, VDV Scout
+  components:
+  - type: StorageFill
+    contents:
+    - id: RURGD5Handgrenade # Zarya Flashbangs
+      amount: 3
+    - id: RURDG2SmokeHandgrenade
+      amount: 3

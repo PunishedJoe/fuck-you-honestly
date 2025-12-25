@@ -1,0 +1,39 @@
+- type: soundCollection
+  id: BF_Marines_Ammo_Here
+  files:
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_1.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_2.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_3.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_4.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_5.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_6.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_7.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_8.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_9.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_10.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_11.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_12.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_13.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_14.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_ammo_15.ogg"
+
+- type: soundCollection
+  id: BF_Marines_Health_Here
+  files:
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med1.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med2.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med3.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med4.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med5.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med6.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med7.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med8.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med9.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med10.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med11.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med12.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med13.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med14.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med15.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med16.ogg"
+  - "/Audio/_Battlefield14/Voice/Human/AmmoAndHealth/US_Marines_Med17.ogg"

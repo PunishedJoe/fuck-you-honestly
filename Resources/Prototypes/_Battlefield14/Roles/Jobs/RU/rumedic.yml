@@ -1,0 +1,74 @@
+- type: job
+  id: VDVMedic
+  name: job-name-vdv-medic
+  description: job-description-vdv-medic
+  playTimeTracker: JobVDVMedic
+  requirements:
+    # COMMENTED OUT: CharacterSpeciesRequirement not supported (species requirement system not implemented)
+    # - !type:CharacterSpeciesRequirement
+    #   species:
+    #     - Human
+    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
+    # - !type:FactionRequirement
+    #   factionID: "PACT"
+    - !type:TraitsRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 75
+  startingGear: VDVMedicGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTMedic"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  # COMMENTED OUT: AddComponentSpecial requires at least one component, but all components are commented out
+  # special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #     # COMMENTED OUT: ChatRank and HullrotFaction not supported
+  #     # - type: ChatRank
+  #     #   rank: BF-rank-corporal
+  #     # - type: HullrotFaction
+  #     #   faction: VDV
+  #     # - type: LanguageAdder
+  #     #   addSpoken:
+  #     #     - LowImperial
+  #     #   addUnderstood:
+  #     #     - LowImperial
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - PACTCommon
+  - PACTMaintenance
+  - PACTMedical
+  - PACTSoldier
+  - PACTArmory
+
+- type: startingGear
+  id: VDVMedicGear
+  equipment:
+    id: VDVMedicPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMedicalEMTFilled # ClothingBeltMilitaryWebbingRUFilledVityaz
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMR
+    eyes: ClothingEyesHudMedicalBF
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    gloves: ClothingHandsGlovesLatex
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponSubmachinegunRUVityaz
+    pocket1: PouchMagsPistolLargeFilledVityaz
+    pocket2: SyringeCaseFilledBF14
+  storage:
+    back:
+    - SupplyBoxMedicalFilled
+    - DefibrillatorCompactBF

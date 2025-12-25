@@ -1,0 +1,27 @@
+# USMC | Techno/Synth tracks
+- type: ambientMusic
+  id: combatmodeUSMC
+  priority: 3
+  rules: AlwaysTrue
+  sound:
+    collection: combatmodeUSMC
+
+- type: soundCollection
+  id: combatmodeUSMC
+  files:
+    - /Audio/_Battlefield14/Ambience/CombatMode/USMC_1.ogg
+    - /Audio/_Battlefield14/Ambience/CombatMode/USMC_2.ogg
+
+# VDV | More industrial tracks / just whatever Russian stuff
+- type: ambientMusic
+  id: combatmodeVDV
+  priority: 3
+  rules: AlwaysTrue
+  sound:
+    collection: combatmodeVDV
+
+- type: soundCollection
+  id: combatmodeVDV
+  files:
+    - /Audio/_Battlefield14/Ambience/CombatMode/VDV_1.ogg
+    - /Audio/_Battlefield14/Ambience/CombatMode/VDV_2.ogg

@@ -1,0 +1,137 @@
+- type: vendingMachineInventory
+  id: NATOUSMCWarInventory
+  startingInventory:
+    WeaponRifleUSM16A4: 100
+    WeaponRifleUSM4A1: 3
+    MagazineRifleSTANAG: 100
+    WeaponSubmachinegunUSMP5: 5
+    MagazineSubmachinegunMP5: 20
+    BoxLethalshot: 10
+    WeaponPistolM9: 20
+    MagazinePistolM9: 150
+    TelescopicShield: 2
+    RiotShield: 2
+    CombatKnife: 100
+    BoxMagazineSTANAG: 20
+    ClothingBeltMedicalAdvancedFilled: 4
+    ClothingBeltMilitaryWebbingUS: 50
+    ClothingBeltAssault: 50
+    ClothingBackpackRucksackTan: 50
+    ClothingBackpackRucksackBlack: 50
+    EVAKitCombatUSMC: 50
+    JetpackBlackFilled: 50
+    FoodSnackNutribrick: 100
+    DrinkMREFlask: 100
+    HandHeldMassScannerEE: 150
+    Crowbar: 150
+    OxygenTankFilled: 150
+    ClothingEyesGogglesTan: 100
+    ClothingHeadHatHelmetUS: 100
+    ClothingOuterArmorPlateCarrierTan: 100
+    ClothingHeadHelmetSoftsuitNasa: 50
+    ClothingOuterSoftsuitNASA: 50
+    ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: NATOUSMCAmmoInventory
+  startingInventory:
+    MagazineRifleSTANAG: 100
+    BoxMagazineSTANAG: 30
+    MagazineBox556x45Big: 10
+    MagazineBox556x45: 25
+    MagazineSubmachinegunMP5: 100
+    MagazineBox9x19mmBig: 25
+
+- type: vendingMachineInventory
+  id: NATOUSMCGearInventory
+  startingInventory:
+    C4: 100
+    JetpackBlackFilled: 10
+    GrenadeFlashBang: 30
+    MK21Handgrenade: 30
+    USM18SmokeHandgrenade: 50
+    SecBreachingHammer: 1
+    DoubleEmergencyOxygenTankFilled: 100
+    ClothingHeadHatHelmetUS: 100
+    ClothingOuterArmorPlateCarrierTan: 100
+    ClothingHeadHelmetSoftsuitNasa: 50
+    ClothingOuterSoftsuitNASA: 50
+    ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: NATOUSMCShipInventory
+  startingInventory:
+    ShipVoucherUnionfallRaider: 2
+    ShipVoucherUnionfallIbis: 2
+
+- type: vendingMachineInventory
+  id: PACTVDVWarInventory
+  startingInventory:
+    WeaponRifleRUAK12: 100
+    MagazineRifleAK12: 50
+    MagazineRifleAK74: 50
+    WeaponSubmachinegunRUVityaz: 5
+    MagazineSubmachinegunVityaz: 20
+    BoxLethalshot: 10
+    WeaponPistolMP443: 20
+    MagazinePistolMP443: 150
+    TelescopicShield: 2
+    RiotShield: 2
+    CombatKnife: 100
+    BoxMagazineAK74: 20
+    ClothingBeltMedicalAdvancedFilled: 4
+    ClothingBeltMilitaryWebbingRU: 50
+    ClothingBeltAssault: 50
+    ClothingBackpackRucksackTan: 50
+    ClothingBackpackRucksackBlack: 50
+    EVAKitCombatRU: 50
+    JetpackBlackFilled: 50
+    FoodSnackNutribrick: 100
+    DrinkMREFlask: 100
+    HandHeldMassScannerEE: 150
+    Crowbar: 150
+    OxygenTankFilled: 150
+    ClothingEyesGogglesGreen: 100
+    ClothingHeadHatHelmetRUEMR: 100
+    ClothingOuterArmorPlateCarrierBlack: 100
+    ClothingHeadHelmetSoftsuitVKS: 50
+    ClothingOuterSoftsuitVKS: 50
+    ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: PACTVDVAmmoInventory
+  startingInventory:
+    MagazineRifleAK12: 30
+    MagazineRifleAK74: 70
+    BoxMagazineAK12: 10
+    BoxMagazineAK74: 20
+    MagazineBox545x39Big: 10
+    MagazineBox545x39: 25
+    MagazineSubmachinegunVityaz: 100
+    MagazineBox9x19mmBig: 25
+    BoxMagazineASVALShort: 5
+    BoxMagazineAKM: 5
+
+- type: vendingMachineInventory
+  id: PACTVDVGearInventory
+  startingInventory:
+    C4: 100
+    JetpackBlackFilled: 10
+    GrenadeFlashBang: 30
+    RURGD5Handgrenade: 30
+#    RGOImpactHandgrenade: 5 add back when sprite issue fixed
+    RURDG2SmokeHandgrenade: 50
+    TM62Flatpack: 10
+    SecBreachingHammer: 1
+    DoubleEmergencyOxygenTankFilled: 100
+    ClothingHeadHatHelmetRUEMR: 100
+    ClothingOuterArmorPlateCarrierBlack: 100
+    ClothingHeadHelmetSoftsuitVKS: 50
+    ClothingOuterSoftsuitVKS: 50
+    ClothingShoesBootsMagCombat: 50
+
+- type: vendingMachineInventory
+  id: PACTVDVShipInventory
+  startingInventory:
+    ShipVoucherUnionfallRaider: 2
+    ShipVoucherUnionfallIbis: 2

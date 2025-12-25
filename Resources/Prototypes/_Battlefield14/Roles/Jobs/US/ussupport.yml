@@ -1,0 +1,70 @@
+- type: job
+  id: USMCAutomaticRifleman
+  name: job-name-usmc-automatic-rifleman
+  description: job-description-usmc-automatic-rifleman
+  playTimeTracker: JobUSMCAutomaticRifleman
+  requirements:
+    # COMMENTED OUT: CharacterSpeciesRequirement not supported (species requirement system not implemented)
+    # - !type:CharacterSpeciesRequirement
+    #   species:
+    #     - Human
+    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
+    # - !type:FactionRequirement
+    #   factionID: "NATO"
+    - !type:TraitsRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 76
+  startingGear: USMCAutomaticRiflemanGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATOSupport"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  # COMMENTED OUT: AddComponentSpecial requires at least one component, but all components are commented out
+  # special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #     # COMMENTED OUT: ChatRank and HullrotFaction not supported
+  #     # - type: ChatRank
+  #     #   rank: BF-rank-corporal
+  #     # - type: HullrotFaction
+  #     #   faction: USMC
+  #     # - type: LanguageAdder
+  #     #   addSpoken:
+  #     #     - English
+  #     #   addUnderstood:
+  #     #     - English
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - NATOCommon
+  - NATOMaintenance
+  - NATOSoldier
+  - NATOArmory
+
+- type: startingGear
+  id: USMCAutomaticRiflemanGear
+  equipment:
+    id: USMCAutomaticRiflemanPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatHelmetUSRiot
+    eyes: ClothingEyesGogglesTan
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM27IAR
+    pocket2: PouchGrenadesFilledUSMCRifleman
+  storage:
+    back:
+    - SupplyBoxAmmoUSFilled
+    - Tourniquet

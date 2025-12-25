@@ -1,0 +1,71 @@
+- type: job
+  id: VDVAutomaticRifleman
+  name: job-name-vdv-automatic-rifleman
+  description: job-description-vdv-automatic-rifleman
+  playTimeTracker: JobVDVAutomaticRifleman
+  requirements:
+    # COMMENTED OUT: CharacterSpeciesRequirement not supported (species requirement system not implemented)
+    # - !type:CharacterSpeciesRequirement
+    #   species:
+    #     - Human
+    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
+    # - !type:FactionRequirement
+    #   factionID: "PACT"
+    - !type:TraitsRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 76
+  startingGear: VDVAutomaticRiflemanGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTSupport"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  # COMMENTED OUT: AddComponentSpecial requires at least one component, but all components are commented out
+  # special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #     # COMMENTED OUT: ChatRank and HullrotFaction not supported
+  #     # - type: ChatRank
+  #     #   rank: BF-rank-corporal
+  #     # - type: HullrotFaction
+  #     #   faction: VDV
+  #     # - type: LanguageAdder
+  #     #   addSpoken:
+  #     #     - Russian
+  #     #   addUnderstood:
+  #     #     - Russian
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - PACTCommon
+  - PACTMaintenance
+  - PACTSoldier
+  - PACTArmory
+
+- type: startingGear
+  id: VDVAutomaticRiflemanGear
+  equipment:
+    id: VDVAutomaticRiflemanPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledAK74blackdrum
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatHelmetRUEMRRiot
+    eyes: ClothingEyesGogglesGreen
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackBlack
+    neck: ClothingNeckIFFtapeWhite
+    suitstorage: WeaponRifleRURPK2016
+    pocket2: PouchGrenadesFilledVDVRifleman
+  storage:
+    back:
+    - SupplyBoxAmmoRUFilled
+    - Tourniquet

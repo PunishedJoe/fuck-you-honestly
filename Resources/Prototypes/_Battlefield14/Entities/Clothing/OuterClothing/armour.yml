@@ -1,0 +1,73 @@
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
+  id: ClothingOuterArmorPlateCarrierBlack
+  name: black plate carrier
+  description: A standard issue armor vest for cannon fodder.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  # COMMENTED OUT: Unknown component 'DegradeableArmor'
+  # - type: DegradeableArmor
+  #   armorMaxHealth: 1000
+  #   armorType: Metallic
+  #   armorRepair: SteelPlate
+  #   initialModifiers:
+  #     flatReductions:
+  #       Blunt: 20
+  #       Slash: 20
+  #       Piercing: 45
+  #       Heat: 15
+  #       Caustic: 5
+#        Shock: 5 shock damage crashes the client in testing for some reason, I wasnt on tools though
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+ # - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 1000. Armour type: Metallic"
+      fontSize: 12
+      color: "#1c89b1"
+      requireDetailRange: true
+
+- type: entity
+  parent: ClothingOuterArmorPlateCarrierBlack
+  id: ClothingOuterArmorPlateCarrierTan
+  name: tan plate carrier
+  description: A standard issue armor vest for cannon fodder.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/tancarrier.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/tancarrier.rsi
+
+- type: entity
+  parent: ClothingOuterArmorPlateCarrierBlack
+  id: ClothingOuterArmorPlateCarrierBlackEgg
+  name: egg-carton plate carrier
+  description: A standard issue plate carrier with the plates removed and replaced with an egg carton, some foam, and a kevlar insert. Utter garbage against bullets but will absorb some blunt impact
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Armor/blackcarrier.rsi
+  # COMMENTED OUT: Unknown component 'DegradeableArmor'
+  # - type: DegradeableArmor
+  #   armorMaxHealth: 400
+  #   armorType: Ceramic
+  #   armorRepair: Kevlar
+  #   initialModifiers:
+  #     flatReductions:
+  #       Blunt: 40
+  #       Slash: 35
+  #       Piercing: 5
+  #       Heat: 5
+  #       Caustic: 5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+ # - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 400. Armour type: Ceramic"
+      fontSize: 12
+      color: "#2a740a"
+      requireDetailRange: true

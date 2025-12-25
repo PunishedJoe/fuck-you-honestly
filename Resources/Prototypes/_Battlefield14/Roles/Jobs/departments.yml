@@ -1,0 +1,25 @@
+- type: department
+  id: USMC
+  name: department-USMC-name
+  description: department-USMC-description
+  color: "#203564"
+  weight: 72
+  roles:
+  - USMCSquadLeader
+  - USMCRifleman
+  - USMCAutomaticRifleman
+  - USMCMedic
+  - USMCRecon
+
+- type: department
+  id: VDV
+  name: department-VDV-name
+  description: department-VDV-description
+  color: "#a02829"
+  weight: 73
+  roles:
+  - VDVSquadLeader
+  - VDVRifleman
+  - VDVAutomaticRifleman
+  - VDVMedic
+  - VDVRecon
