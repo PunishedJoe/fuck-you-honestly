@@ -1,0 +1,78 @@
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatHelmetUS
+  name: american camo helmet
+  description: This isnt for catching shrap or rounds, its made to keep your grey matter from grossing out your buddies.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Head/Helmets/ushelmet.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Head/Helmets/ushelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHatHelmetUS
+  id: ClothingHeadHatHelmetUSRiot
+  name: american camo riot helmet
+  description: This IS for catching shrap and rounds.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Head/Helmets/ushelmetriot.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Head/Helmets/ushelmetriot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  # COMMENTED OUT: Unknown component 'DegradeableArmor'
+  # - type: DegradeableArmor
+  #   armorMaxHealth: 500
+  #   armorType: Ceramic
+  #   armorRepair: NTCeramic
+  #   initialModifiers:
+  #     flatReductions:
+  #       Blunt: 20
+  #       Slash: 20
+  #       Piercing: 10
+
+- type: entity
+  parent: ClothingHeadHatHelmetUS
+  id: ClothingHeadHatHelmetRU
+  name: russian camo helmet
+  description: This isnt for catching shrap or rounds, its made to keep your grey matter from grossing out your buddies.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Head/Helmets/ruhelmet.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Head/Helmets/ruhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHatHelmetUS
+  id: ClothingHeadHatHelmetRUEMR
+  name: russian camo helmet (EMR)
+  description: This isnt for catching shrap or rounds, its made to keep your grey matter from grossing out your buddies.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Head/Helmets/emrhelmet.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Head/Helmets/emrhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHatHelmetUSRiot
+  id: ClothingHeadHatHelmetRUEMRRiot
+  name: russian camo riot helmet (EMR)
+  description: This IS for catching shrap and rounds.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Head/Helmets/emrhelmetriot.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Head/Helmets/emrhelmetriot.rsi

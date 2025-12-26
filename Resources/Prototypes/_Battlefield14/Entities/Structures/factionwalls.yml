@@ -1,0 +1,62 @@
+#faction-flagged walls to guide autoturret targeting
+
+
+#plastitanium
+
+- type: entity
+  parent: WallPlastitanium
+  id: WallPlastitaniumNATO
+  suffix: NATO Warship
+  components:
+    - type: NpcFactionMember
+      factions:
+        - NATOWarship
+
+- type: entity
+  parent: WallPlastitanium
+  id: WallPlastitaniumPACT
+  suffix: PACT Warship
+  components:
+    - type: NpcFactionMember
+      factions:
+        - PACTWarship
+
+#reinforced
+
+- type: entity
+  parent: WallReinforced
+  id: WallReinforcedNATO
+  suffix: NATO Warship
+  components:
+    - type: NpcFactionMember
+      factions:
+        - NATOWarship
+
+- type: entity
+  parent: WallReinforced
+  id: WallReinforcedPACT
+  suffix: PACT Warship
+  components:
+    - type: NpcFactionMember
+      factions:
+        - PACTWarship
+
+#shuttlewalls
+
+- type: entity
+  parent: WallShuttle
+  id: WallShuttleNATO
+  suffix: NATO Warship
+  components:
+    - type: NpcFactionMember
+      factions:
+        - NATOWarship
+
+- type: entity
+  parent: WallShuttle
+  id: WallShuttlePACT
+  suffix: PACT Warship
+  components:
+    - type: NpcFactionMember
+      factions:
+        - PACTWarship

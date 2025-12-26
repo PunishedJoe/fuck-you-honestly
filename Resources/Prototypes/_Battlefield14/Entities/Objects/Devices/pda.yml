@@ -1,0 +1,148 @@
+# USMC
+
+- type: entity
+  parent: BasePDA
+  id: USMCSquadLeaderPDA
+  name: USMC PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCSquadLeaderIDCard
+    state: pda-us
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+- type: entity
+  parent: BasePDA
+  id: USMCRiflemanPDA
+  name: USMC PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCRiflemanIDCard
+    state: pda-us
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+- type: entity
+  parent: USMCRiflemanPDA
+  id: USMCAutomaticRiflemanPDA
+  name: USMC PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCAutomaticRiflemanIDCard
+    state: pda-us
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: USMCMedicPDA
+  name: USMC PDA
+  description: Filled with industrial accident and war casualty videos, im sure it's for training.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCMedicIDCard
+    state: pda-us
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+- type: entity
+  parent: BasePDA
+  id: USMCReconPDA
+  name: USMC PDA
+  description: Filled with my little dark age edits.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-us
+  - type: Pda
+    id: USMCReconIDCard
+    state: pda-us
+  - type: PdaBorderColor
+    borderColor: "#203564"
+
+# VDV
+
+- type: entity
+  parent: BasePDA
+  id: VDVSquadLeaderPDA
+  name: VDV PDA
+  description: Filled with drone footage.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-ru
+  - type: Pda
+    id: VDVSquadLeaderIDCard
+    state: pda-ru
+  - type: PdaBorderColor
+    borderColor: "#a02829"
+
+- type: entity
+  parent: BasePDA
+  id: VDVRiflemanPDA
+  name: VDV PDA
+  description: Filled with drone footage.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-ru
+  - type: Pda
+    id: VDVRiflemanIDCard
+    state: pda-ru
+  - type: PdaBorderColor
+    borderColor: "#a02829"
+
+- type: entity
+  parent: BasePDA
+  id: VDVAutomaticRiflemanPDA
+  name: VDV PDA
+  description: Filled with drone footage.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-ru
+  - type: Pda
+    id: VDVAutomaticRiflemanIDCard
+    state: pda-ru
+  - type: PdaBorderColor
+    borderColor: "#a02829"
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: VDVMedicPDA
+  name: VDV PDA
+  description: What's that guy with the sledgehammer doing?.
+  components:
+  - type: Icon
+    sprite: _Battlefield14/Objects/Devices/pda.rsi
+    state: pda-ru
+  - type: Pda
+    id: VDVMedicIDCard
+    state: pda-ru
+  - type: PdaBorderColor
+    borderColor: "#a02829"
+
+- type: entity
+  parent: VDVRiflemanPDA
+  id: VDVReconPDA
+  name: VDV PDA
+  description: Filled with drone footage.
+  components:
+  - type: Pda
+    id: VDVReconIDCard
+    state: pda-ru

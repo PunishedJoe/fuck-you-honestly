@@ -1,0 +1,23 @@
+- type: entity
+  id: NATOUSSBarackObamaMothershipComputer
+  # COMMENTED OUT: Missing parent 'BaseMothershipComputer'
+  # parent: BaseMothershipComputer
+  parent: BaseMachinePowered
+  name: USS Barack Obama internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - UnionfallConquest
+    - UnionfallValor
+
+- type: entity
+  id: PACTSVOGoydinClementineMothershipComputer
+  # COMMENTED OUT: Missing parent 'BaseMothershipComputer'
+  # parent: BaseMothershipComputer
+  parent: BaseMachinePowered
+  name: SVO Goydin internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - UnionfallKhopesh
+    - UnionfallBroadsword

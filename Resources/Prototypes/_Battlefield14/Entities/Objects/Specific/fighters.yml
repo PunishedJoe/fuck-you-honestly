@@ -1,0 +1,202 @@
+# COMMENTED OUT: All fighters and spawners - CanBeHeatTracked component not found
+# - type: entity
+#   id: BaseFighterBF
+#   abstract: true
+#   components:
+#   - type: Mech
+#   - type: CanBeHeatTracked
+#   - type: ProximityFuseTarget
+#   - type: Physics
+#     bodyType: Dynamic
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PhysShapeCircle
+#           radius: 1
+#         density: 21390
+#         mask:
+#         - FighterImpassable
+#         # COMMENTED OUT: Invalid enum value 'FighterMask' - not found in physics layer enum
+#         # layer:
+#         # - FighterMask
+#
+# - type: entity
+#   id: LightFighterBF
+#   parent: BaseFighterBF
+#   abstract: true
+#   components:
+#   - type: Mech
+#     equipmentWhitelist:
+#       tags:
+#       - LightFighterEquipment
+#  # COMMENTED OUT: Unknown component 'RangeBasedPvs'
+#  # - type: RangeBasedPvs
+#  #   sendRange: 1500
+#  # COMMENTED OUT: Unknown component 'EntityIFFDesignation'
+#  # - type: EntityIFFDesignation
+#  #   name: "Fighter Without Name - get one!"
+#
+# #
+#
+#  - type: entity
+#    id: FighterUSF22Raptor
+#    parent: [ LightFighterBF, BaseMech ]
+#    name: F-22 Raptor
+#    description: An advanced interceptor starfighter. A tried and tested vessel that served in many naval conflicts across human history - although most detractors criticize how expensive to maintain and over-engineered the shuttle is.
+#    components:
+#    # COMMENTED OUT: Unknown component 'EntityIFFDesignation'
+#   # - type: EntityIFFDesignation
+#   #   name: "F-22 Raptor"
+#    - type: Sprite
+#      scale: 1, 1
+#      drawdepth: Mobs
+#      noRot: true
+#      sprite: _Battlefield14/Objects/Specific/bigfighters.rsi
+#      layers:
+#      - map: [ "enum.MechVisualLayers.Base" ]
+#        state: raptor
+#    - type: Mech
+#      maxIntegrity: 750
+#      baseState: raptor
+#      openState: raptor-open
+#      brokenState: raptor-broken
+#      mechToPilotDamageMultiplier: 0.8
+#      airtight: true
+#      pilotWhitelist:
+#        components:
+#          - HumanoidAppearance
+#    - type: MovementSpeedModifier
+#      baseWalkSpeed: 0.5
+#      baseSprintSpeed: 0.5
+#      weightlessAcceleration: 0.5
+#      weightlessFriction: 0
+#      weightlessModifier: 150
+#    - type: CanMoveInAir
+#    - type: MovementAlwaysTouching
+#    - type: RadarConsole
+#      maxRange: 256
+#      followEntity: true
+#    - type: ProjectileIFF
+#      visualType: Diamond
+#      color: "#203564"
+#      scale: 3
+#    - type: StaticPrice
+#      price: 15000
+#    - type: Fixtures
+#      fixtures:
+#        fix1:
+#          shape:
+#            !type:PhysShapeCircle
+#            radius: 1.5
+#          density: 21390
+#          mask:
+#          - FighterImpassable
+#          # COMMENTED OUT: Invalid enum value 'FighterMask' - not found in physics layer enum
+#          # layer:
+#          # - FighterMask
+#
+#  - type: entity
+#    id: FighterUSF22RaptorBattery
+#    parent: FighterUSF22Raptor
+#    suffix: Battery
+#    components:
+#    - type: ContainerFill
+#      containers:
+#        mech-battery-slot:
+#        - PowerCageUraniumCell
+#
+#  - type: entity
+#    name: F-22 Raptor Spawner
+#    id: SpawnFighterF22Raptor
+#    parent: MarkerBase
+#    components:
+#    - type: Sprite
+#      layers:
+#        - state: green
+#        - sprite: _Battlefield14/Objects/Specific/bigfighters.rsi
+#          state: raptor
+#    - type: ConditionalSpawner
+#      prototypes:
+#        - FighterUSF22RaptorBattery
+#
+#  - type: entity
+#    id: FighterRUSU57Felon
+#    parent: [ LightFighterBF, BaseMech ]
+#    name: SU-57 Felon
+#    description: An advanced interceptor starfighter. A tried and tested vessel that served in many naval conflicts across human history - although most detractors criticize how expensive to maintain and over-engineered the shuttle is.
+#    components:
+#    # COMMENTED OUT: Unknown component 'EntityIFFDesignation'
+#   # - type: EntityIFFDesignation
+#   #   name: "SU-57 Raptor"
+#    - type: Sprite
+#      scale: 1, 1
+#      drawdepth: Mobs
+#      noRot: true
+#      sprite: _Battlefield14/Objects/Specific/bigfighters.rsi
+#      layers:
+#      - map: [ "enum.MechVisualLayers.Base" ]
+#        state: felon
+#    - type: Mech
+#      maxIntegrity: 750
+#      baseState: felon
+#      openState: felon-open
+#      brokenState: felon-broken
+#      mechToPilotDamageMultiplier: 0.8
+#      airtight: true
+#      pilotWhitelist:
+#        components:
+#          - HumanoidAppearance
+#    - type: MovementSpeedModifier
+#      baseWalkSpeed: 0.5
+#      baseSprintSpeed: 0.5
+#      weightlessAcceleration: 0.5
+#      weightlessFriction: 0
+#      weightlessModifier: 150
+#    - type: CanMoveInAir
+#    - type: MovementAlwaysTouching
+#    - type: RadarConsole
+#      maxRange: 256
+#      followEntity: true
+#    - type: ProjectileIFF
+#      visualType: Diamond
+#      color: "#a02829"
+#      scale: 3
+#    - type: StaticPrice
+#      price: 15000
+#    - type: Fixtures
+#      fixtures:
+#        fix1:
+#          shape:
+#            !type:PhysShapeCircle
+#            radius: 1.5
+#          density: 21390
+#          mask:
+#          - FighterImpassable
+#          # COMMENTED OUT: Invalid enum value 'FighterMask' - not found in physics layer enum
+#          # layer:
+#          # - FighterMask
+#
+#  - type: entity
+#    id: FighterRUSU57FelonBattery
+#    parent: FighterRUSU57Felon
+#    suffix: Battery
+#    components:
+#    - type: ContainerFill
+#      containers:
+#        mech-battery-slot:
+#        - PowerCageUraniumCell
+#
+#  - type: entity
+#    name: F-22 Raptor Spawner
+#    id: SpawnFighterRUSU57Felon
+#    parent: MarkerBase
+#    components:
+#    - type: Sprite
+#      layers:
+#        - state: green
+#        - sprite: _Battlefield14/Objects/Specific/bigfighters.rsi
+#          state: felon
+#    - type: ConditionalSpawner
+#      prototypes:
+#        - FighterRUSU57FelonBattery

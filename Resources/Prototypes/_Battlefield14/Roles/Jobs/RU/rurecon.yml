@@ -1,0 +1,69 @@
+- type: job
+  id: VDVRecon
+  name: job-name-vdv-recon
+  description: job-description-vdv-recon
+  playTimeTracker: JobVDVRecon
+  requirements:
+    # COMMENTED OUT: CharacterSpeciesRequirement not supported (species requirement system not implemented)
+    # - !type:CharacterSpeciesRequirement
+    #   species:
+    #     - Human
+    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
+    # - !type:FactionRequirement
+    #   factionID: "PACT"
+    - !type:TraitsRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 74
+  startingGear: VDVReconGear
+  alwaysUseSpawner: true
+  icon: "JobIconPACTRecon"
+  requireAdminNotify: false
+  supervisors: job-supervisors-rugov
+  canBeAntag: false
+  # COMMENTED OUT: AddComponentSpecial requires at least one component, but all components are commented out
+  # special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #     # COMMENTED OUT: ChatRank and HullrotFaction not supported
+  #     # - type: ChatRank
+  #     #   rank: BF-rank-private
+  #     # - type: HullrotFaction
+  #     #   faction: VDV
+  #     # - type: LanguageAdder
+  #     #   addSpoken:
+  #     #     - LowImperial
+  #     #   addUnderstood:
+  #     #     - LowImperial
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - PACTCommon
+  - PACTMaintenance
+  - PACTSoldier
+  - PACTArmory
+
+- type: startingGear
+  id: VDVReconGear
+  equipment:
+    id: VDVReconPDA
+    ears: ClothingHeadsetAltRU
+    belt: ClothingBeltMilitaryWebbingRUFilledASVALShort
+    jumpsuit: ClothingUniformJumpsuitCamoRUEMR
+    head: ClothingHeadHatSkullcrusher
+    outerClothing: ClothingOuterArmorPlateCarrierBlack
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackBlack
+    suitstorage: WeaponRifleRUASVAL
+    pocket2: PouchGrenadesFilledVDVScout
+  storage:
+    back:
+    - Tourniquet
+    - Zipties

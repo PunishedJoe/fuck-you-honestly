@@ -1,0 +1,284 @@
+# US
+
+- type: entity
+  name: M67 Grenade
+  description: The classic GI hand grenade post vietnam.
+  parent: GrenadeBase
+  id: M67Handgrenade
+  components:
+  - type: OnUseTimerTrigger
+    delay: 3.5
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/m67.rsi
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Fragmentation
+    maxIntensity: 100
+    intensitySlope: 4
+    totalIntensity: 200
+    canCreateVacuum: false
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: "/Audio/_Crescent/Weapons/Grenades/trigger2.ogg"
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: FragGrenadeSFX
+
+- type: entity
+  name: MK21 Offensive Grenade
+  description: USMC standard issue blast grenade.
+  parent: GrenadeBase
+  id: MK21Handgrenade
+  components:
+  - type: OnUseTimerTrigger
+    delay: 3.5
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/MK21.rsi
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Fragmentation
+    maxIntensity: 100
+    intensitySlope: 4
+    totalIntensity: 200
+    canCreateVacuum: false
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: "/Audio/_Crescent/Weapons/Grenades/trigger2.ogg"
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: FragGrenadeSFX
+
+- type: entity
+  name: MK21 Offensive Grenade Sword
+  description: You crazy son of a bitch.
+  parent: GrenadeBase
+  id: MK21HandgrenadeSword
+  components:
+  - type: Item
+    size: Large
+  - type: OnUseTimerTrigger
+    delay: 3.5
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/MK21sword.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 35
+    soundHit:
+      collection: MetalThud
+    bluntStaminaDamageFactor: 1.25
+    heavyRateModifier: 1.25
+    heavyDamageBaseModifier: 1.2
+    heavyStaminaCost: 1.5
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 0
+    staminaCost: 65
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Fragmentation
+    maxIntensity: 500
+    intensitySlope: 5
+    totalIntensity: 1000
+    canCreateVacuum: true
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: "/Audio/_Crescent/Weapons/Grenades/trigger2.ogg"
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: FragGrenadeSFX
+
+
+- type: entity
+  name: M18 Smoke grenade
+  description: A simple grey smoke grenade, canned smoke for your convenience. At least, you think it’s canned smoke, you’re not entirely sure how these things actually work.
+  parent: GrenadeBase
+  id: USM18SmokeHandgrenade
+  components:
+  - type: OnUseTimerTrigger
+    delay: 2.5
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/M18.rsi
+  - type: SmokeOnTrigger
+    duration: 30
+    spreadAmount: 18
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: "/Audio/_Crescent/Weapons/Grenades/trigger1.ogg"
+  - type: SoundOnTrigger
+    sound: /Audio/_Crescent/Weapons/Grenades/smoke10s.ogg
+  - type: DeleteOnTrigger
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: SmokeGrenadeSFX
+ # - type: ExtendDescription
+ #  descriptionList:
+ #  - description: "Smoke lasts 30 seconds."
+ #    fontSize: 12
+ #    color: "#1c89b1"
+ #    requireDetailRange: true
+
+# RU
+
+- type: entity
+  name: RGD-5 Grenade
+  description: An undying classic from the soviet union.
+  parent: GrenadeBase
+  id: RURGD5Handgrenade
+  components:
+  - type: OnUseTimerTrigger
+    delay: 3.5
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/rgd5.rsi
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Fragmentation
+    maxIntensity: 100
+    intensitySlope: 4
+    totalIntensity: 200
+    canCreateVacuum: false
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: "/Audio/_Crescent/Weapons/Grenades/trigger1.ogg"
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: FragGrenadeSFX
+
+- type: entity
+  name: RGO Offensive Impact grenade
+  description: What does this even stand for? Russian Grenade something? oh well, chuck it and it blows up.
+  parent: BaseItem
+  id: RGOImpactHandgrenade
+  components:
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/rgo.rsi
+    layers:
+    - state: icon
+    - state: primed
+      visible: false
+      map: ["enum.ToggleVisuals.Layer"]
+  - type: Appearance
+  - type: AnimationPlayer
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: { visible: true }
+          False: { visible: false }
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      path: /Audio/_Crescent/Weapons/Grenades/trigger2.ogg
+    soundDeactivate:
+      path: /Audio/_Crescent/Weapons/Grenades/disable1.ogg
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:TriggerBehavior
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: ComponentToggler
+    components:
+    - type: DamageOnLand
+      damage:
+        types:
+          Blunt: 50
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Fragmentation
+    maxIntensity: 100
+    intensitySlope: 4
+    totalIntensity: 200
+    canCreateVacuum: false
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: FragGrenadeSFX
+
+- type: entity
+  name: RGD2 Smoke grenade
+  description: A simple grey smoke grenade, canned smoke for your convenience. At least, you think it’s canned smoke, you’re not entirely sure how these things actually work.
+  parent: GrenadeBase
+  id: RURDG2SmokeHandgrenade
+  components:
+  - type: OnUseTimerTrigger
+    delay: 2.5
+  - type: Tag
+    tags:
+      - Grenade
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Grenades/rdg2.rsi
+  - type: SmokeOnTrigger
+    duration: 30
+    spreadAmount: 18
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: "/Audio/_Crescent/Weapons/Grenades/trigger3.ogg"
+  - type: SoundOnTrigger
+    sound: /Audio/_Crescent/Weapons/Grenades/smoke10s.ogg
+  - type: DeleteOnTrigger
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Grenades/grab1.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Grenades/drop1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      collection: SmokeGrenadeSFX
+
+ # - type: ExtendDescription
+ #   descriptionList:
+ #   - description: "Smoke lasts 30 seconds."
+ #     fontSize: 12
+ #     color: "#1c89b1"
+ #     requireDetailRange: true

@@ -1,0 +1,17 @@
+- type: entity
+  parent: MarkerBase
+  id: RandomPowerWeapon
+  name: random power weapon
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: _Battlefield14/Objects/Weapons/Guns/Rifles/M4.rsi
+        state: icon
+  - type: RandomSpawner
+    offset: 0
+    prototypes: # Placeholder until I actually make these
+      - WeaponRifleUSM27IAR
+      - WeaponRifleRUAKMS
+      - WeaponRifleRUASVAL
+    chance: 1

@@ -1,0 +1,65 @@
+- type: Tag
+  id: MagazineRifleSTANAG
+
+- type: Tag
+  id: CartridgeRifle556
+
+- type: Tag
+  id: CartridgeRifle545
+
+- type: Tag
+  id: CartridgeRifle762
+
+- type: Tag
+  id: CartridgeRifle762x51
+
+- type: Tag
+  id: CartridgeRifle762x54r
+
+- type: Tag
+  id: CartridgeRifle939
+
+- type: Tag
+  id: CartridgePistol9mm
+
+- type: Tag
+  id: MagazineRifleAK74
+
+- type: Tag
+  id: MagazineRifleASVAL
+
+- type: Tag
+  id: MagazineRifleAKM
+
+- type: Tag
+  id: MagazineRifleSV98
+
+- type: Tag
+  id: MagazineBeltBoxM249
+
+- type: Tag
+  id: MagazinePistolM9
+
+- type: Tag
+  id: MagazinePistolMP443
+
+- type: Tag
+  id: MagazinePistolMP5
+
+- type: Tag
+  id: MagazinePistolVityaz
+
+- type: Tag
+  id: AmmunitionBox
+
+- type: Tag
+  id: LightFighter
+
+- type: Tag
+  id: LightFighterEquipment
+
+- type: Tag
+  id: PistolMagazine # for all kinds of pistol magazines, this is used for pistol magazine pouches
+
+- type: Tag
+  id: Magazine # generic tag for all magazine types

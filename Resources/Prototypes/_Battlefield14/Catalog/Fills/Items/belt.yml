@@ -1,0 +1,89 @@
+- type: entity
+  id: ClothingBeltMilitaryWebbingUSFilledSTANAG
+  parent: ClothingBeltMilitaryWebbingUS
+  suffix: Filled Stanag
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleSTANAG
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingUSFilledMP5
+  parent: ClothingBeltMilitaryWebbingUS
+  suffix: Filled MP5
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineSubmachinegunMP5
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAK74
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AK74
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK74
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAK12
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AK12
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK12
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAK74blackdrum
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled 75 round drum
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK74blackdrum
+        amount: 4
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledAKMS
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AKMS
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAKM
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledVityaz
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled Vityaz
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineSubmachinegunVityaz
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledASVAL
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AS-VAL
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleASVAL
+        amount: 8
+
+- type: entity
+  id: ClothingBeltMilitaryWebbingRUFilledASVALShort
+  parent: ClothingBeltMilitaryWebbingRU
+  suffix: Filled AS-VAL short
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleASVALShort
+        amount: 8

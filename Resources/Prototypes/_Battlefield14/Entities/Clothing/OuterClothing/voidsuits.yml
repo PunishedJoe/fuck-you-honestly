@@ -1,0 +1,181 @@
+- type: entity
+  id: BaseIntegratedManeuveringThrusters
+  name: integrated maneuvering thrusters
+  description: A set of maneuvering thrusters integrated into a suit.
+  abstract: true
+  components:
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      # 10 minutes of thrust
+      volume: 3.75
+      temperature: 293.15
+      moles:
+      - 0.769267145 # oxygen
+      - 0.769267145 # nitrogen
+    isInternals: false # So you don't suck on your integrated thrusters
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+    verbOnly: true
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: Jetpack
+    moleUsage: 0.00085
+  - type: CanMoveInAir
+  - type: InputMover
+    toParent: true
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 1
+    weightlessFriction: 0.3
+    weightlessModifier: 1.2
+
+- type: entity
+  # COMMENTED OUT: Missing parent 'BaseIntegratedManeuveringThrusters'
+  # parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterVoidsuitRussianCombat
+  name: Russian 'Goida' Combat Voidsuit
+  description: A combat voidsuit of Russian design, for their frontline soldiers in the final frontier.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: Item
+    size: Huge
+  - type: Tag
+    tags:
+    - FitsInVoidsuitKit
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  # COMMENTED OUT: Unknown component 'DegradeableArmor'
+  # - type: DegradeableArmor
+  #   armorMaxHealth: 750
+  #   armorType: Metallic
+  #   armorRepair: PlasteelPlate
+  #   initialModifiers:
+  #     flatReductions:
+  #       Blunt: 15
+  #       Slash: 25
+  #       Piercing: 45
+  #       Heat: 25
+  #       Caustic: 20
+#        Shock: 25 shock damage crashes the client in testing for some reason, I wasnt on tools though
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
+  - type: StaticPrice
+    price: 4500
+  # COMMENTED OUT: ClothingAddFaction not supported (faction system not implemented)
+  # - type: ClothingAddFaction
+  #   faction: PACT
+ # - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 750. Armour type: Metallic"
+      fontSize: 12
+      color: "#1c89b1"
+      requireDetailRange: true
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterVoidsuitRussianCombatJuggernaut
+  name: Russian 'Slon' Juggernaut Voidsuit
+  description: Slon, meaning elephant, is essentially what you become wearing this thing, a big bad angry elephant; recommended with a light machinegun.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi # No sprites for this yet, it's admeme anyway
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/russiancombat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  # COMMENTED OUT: Unknown component 'DegradeableArmor'
+  # - type: DegradeableArmor
+  #   armorMaxHealth: 2000
+  #   armorType: Ceramic
+  #   armorRepair: NTCeramic
+  #   initialModifiers:
+  #     flatReductions:
+  #       Blunt: 30
+  #       Slash: 30
+  #       Piercing: 90
+  #       Heat: 35
+  #       Caustic: 30
+#        Shock: 35
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat # change later
+  - type: StaticPrice
+    price: 8000
+  # COMMENTED OUT: ClothingAddFaction not supported (faction system not implemented)
+  # - type: ClothingAddFaction
+  #   faction: PACT
+ # - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 2000. Armour type: Ceramic"
+      fontSize: 12
+      color: "#1c89b1"
+      requireDetailRange: true
+
+- type: entity
+  # COMMENTED OUT: Missing parent 'BaseIntegratedManeuveringThrusters'
+  # parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterVoidsuitAmericanCombatMarine
+  name: Marine 'Devil Dog' Combat Voidsuit
+  description: A combat voidsuit of American design, for their marine corps, with darker colours to blend into the backdrop of space.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/americancombatmarine.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/OuterClothing/Voidsuits/americancombatmarine.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: Item
+    size: Huge
+  - type: Tag
+    tags:
+    - FitsInVoidsuitKit
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  # COMMENTED OUT: Unknown component 'DegradeableArmor'
+  # - type: DegradeableArmor
+  #   armorMaxHealth: 750
+  #   armorType: Metallic
+  #   armorRepair: PlasteelPlate
+  #   initialModifiers:
+  #     flatReductions:
+  #       Blunt: 15
+  #       Slash: 25
+  #       Piercing: 45
+  #       Heat: 25
+  #       Caustic: 20
+#        Shock: 25
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetVoidsuitAmericanCombatMarine
+  - type: StaticPrice
+    price: 4500
+  # COMMENTED OUT: ClothingAddFaction not supported (faction system not implemented)
+  # - type: ClothingAddFaction
+  #   faction: NATO
+ # - type: ExtendDescription
+    descriptionList:
+    - description: "Maximum health: 750. Armour type: Metallic"
+      fontSize: 12
+      color: "#1c89b1"
+      requireDetailRange: true

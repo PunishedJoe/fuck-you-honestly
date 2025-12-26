@@ -1,0 +1,40 @@
+- type: language
+  id: Mexican
+  isVisibleLanguage: true
+  speech:
+    color: "#6a662f"
+    fontId: SpecialElite
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 1
+    replacement:
+      - me
+      - 'no'
+      - soy
+      - fan
+      - de
+      - epstein
+      - carnal
+      - cuties
+      - criminal
+      - japon
+      - es
+      - cagada
+      - taco
+      - latinx
+      - ay ay aye
+      - puto
+      - fentanyl
+      - el hefe
+      - crack
+      - cocaine
+      - chavo
+      - gringo
+      - gringx
+      - muy
+      - peso
+      - me
+      - dice
+      - la
+      - respeta

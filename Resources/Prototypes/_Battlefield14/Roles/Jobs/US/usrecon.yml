@@ -1,0 +1,69 @@
+- type: job
+  id: USMCRecon
+  name: job-name-usmc-recon
+  description: job-description-usmc-recon
+  playTimeTracker: JobUSMCRecon
+  requirements:
+    # COMMENTED OUT: CharacterSpeciesRequirement not supported (species requirement system not implemented)
+    # - !type:CharacterSpeciesRequirement
+    #   species:
+    #     - Human
+    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
+    # - !type:FactionRequirement
+    #   factionID: "NATO"
+    - !type:TraitsRequirement
+      inverted: true
+      traits:
+        - Muted
+        - Blindness
+        - Pacifist
+        - WheelchairBound
+  weight: 74
+  startingGear: USMCReconGear
+  alwaysUseSpawner: true
+  icon: "JobIconNATORecon"
+  requireAdminNotify: false
+  supervisors: job-supervisors-usgov
+  canBeAntag: false
+  # COMMENTED OUT: AddComponentSpecial requires at least one component, but all components are commented out
+  # special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #     # COMMENTED OUT: ChatRank and HullrotFaction not supported
+  #     # - type: ChatRank
+  #     #   rank: BF-rank-corporal
+  #     # - type: HullrotFaction
+  #     #   faction: USMC
+  #     # - type: LanguageAdder
+  #     #   addSpoken:
+  #     #     - LowImperial
+  #     #   addUnderstood:
+  #     #     - LowImperial
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Mercenary # Frontier
+  - Captain # Frontier
+  - NATOCommon
+  - NATOMaintenance
+  - NATOSoldier
+  - NATOArmory
+
+- type: startingGear
+  id: USMCReconGear
+  equipment:
+    id: USMCRiflemanPDA
+    ears: ClothingHeadsetAltUS
+    belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
+    jumpsuit: ClothingUniformJumpsuitCamoUS
+    head: ClothingHeadHatSkullcrusher
+    outerClothing: ClothingOuterArmorPlateCarrierTan
+    shoes: ClothingShoesBootsJackFilled
+    back: ClothingBackpackRucksackTan
+    suitstorage: WeaponRifleUSM4A1SUPP
+    pocket2: PouchGrenadesFilledUSMCScout
+  storage:
+    back:
+    - Tourniquet
+    - Zipties

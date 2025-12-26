@@ -1,0 +1,79 @@
+# As opposed to MagazineBox these are boxes of magazines so BoxMagazine
+# Rifle
+- type: entity
+  name: box of STANAG magazines
+  parent: BoxMagazine
+  id: BoxMagazineSTANAG
+  description: A box full of 5.56x45mm STANAG magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleSTANAG
+        amount: 8
+
+- type: entity
+  name: box of 5.45x39mm AK-74 magazines
+  parent: BoxMagazine
+  id: BoxMagazineAK74
+  description: A box full of 5.45x39mm '74 pattern magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK74
+        amount: 8
+
+- type: entity
+  name: box of 5.45x39mm AK-12 magazines
+  parent: BoxMagazine
+  id: BoxMagazineAK12
+  description: A box full of 5.45x39mm '74 pattern magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAK12
+        amount: 8
+
+- type: entity
+  name: box of 5.45x39mm AKM magazines
+  parent: BoxMagazine
+  id: BoxMagazineAKM
+  description: A box full of 5.45x39mm '74 pattern magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleAKM
+        amount: 8
+
+- type: entity
+  name: box of 9x39mm AS-VAL magazines
+  parent: BoxMagazine
+  id: BoxMagazineASVAL
+  description: A box full of 9x39mm AS-VAL compatible magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleASVAL
+        amount: 8
+
+- type: entity
+  name: box of 9x39mm AS-VAL magazines
+  parent: BoxMagazine
+  suffix: Short
+  id: BoxMagazineASVALShort
+  description: A box full of 9x39mm AS-VAL compatible magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleASVALShort
+        amount: 8
+
+- type: entity
+  name: box of 7.62x54mmR SV-98 magazines
+  parent: BoxMagazine
+  id: BoxMagazineSV98
+  description: A box full of 7.62x54mmR SV-98 compatible magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifleSV98
+        amount: 8
