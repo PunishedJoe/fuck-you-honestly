@@ -142,7 +142,12 @@
   - type: EmitSoundOnLand
     sound:
       collection: SmokeGrenadeSFX
-
+ # - type: ExtendDescription
+ #  descriptionList:
+ #  - description: "Smoke lasts 30 seconds."
+ #    fontSize: 12
+ #    color: "#1c89b1"
+ #    requireDetailRange: true
 
 # RU
 
@@ -270,3 +275,10 @@
   - type: EmitSoundOnLand
     sound:
       collection: SmokeGrenadeSFX
+
+ # - type: ExtendDescription
+ #   descriptionList:
+ #   - description: "Smoke lasts 30 seconds."
+ #     fontSize: 12
+ #     color: "#1c89b1"
+ #     requireDetailRange: true
