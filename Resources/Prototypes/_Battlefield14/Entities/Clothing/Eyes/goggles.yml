@@ -1,4 +1,16 @@
 - type: entity
+  abstract: true
+  id: BallisticGlasses
+  components:
+  - type: Reflect # Ballistic glasses are any glasses that have a small chance to deflect projectiles
+    spread: 270
+    reflectProb: 0.01
+    innate: true
+    reflects:
+    - Energy
+    - NonEnergy
+
+- type: entity
   # COMMENTED OUT: Missing parent 'BallisticGlasses'
   # parent: [ ClothingEyesHudSecurity, BallisticGlasses ]
   parent: ClothingEyesHudSecurity
@@ -14,11 +26,11 @@
   - type: IdentityBlocker
     coverage: EYES
  # - type: ExtendDescription
-    descriptionList:
-      - description: Provides welding protection
-        fontSize: 12
-        color: "#4f94ad"
-        requireDetailRange: false
+#   descriptionList:
+#     - description: Provides welding protection
+#       fontSize: 12
+#       color: "#4f94ad"
+#       requireDetailRange: false
 
 - type: entity
   parent: ClothingEyesGogglesTan
