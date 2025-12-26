@@ -111,12 +111,7 @@
   - type: EmitSoundOnLand
     sound:
       collection: FragGrenadeSFX
- # - type: ExtendDescription
-    descriptionList:
-    - description: "You're a mad man."
-      fontSize: 12
-      color: "#1c89b1"
-      requireDetailRange: true
+
 
 - type: entity
   name: M18 Smoke grenade
@@ -147,12 +142,7 @@
   - type: EmitSoundOnLand
     sound:
       collection: SmokeGrenadeSFX
- # - type: ExtendDescription
-    descriptionList:
-    - description: "Smoke lasts 30 seconds."
-      fontSize: 12
-      color: "#1c89b1"
-      requireDetailRange: true
+
 
 # RU
 
@@ -280,9 +270,3 @@
   - type: EmitSoundOnLand
     sound:
       collection: SmokeGrenadeSFX
- # - type: ExtendDescription
-    descriptionList:
-    - description: "Smoke lasts 30 seconds."
-      fontSize: 12
-      color: "#1c89b1"
-      requireDetailRange: true

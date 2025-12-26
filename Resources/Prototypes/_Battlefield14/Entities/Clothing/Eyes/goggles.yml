@@ -11,9 +11,7 @@
     - NonEnergy
 
 - type: entity
-  # COMMENTED OUT: Missing parent 'BallisticGlasses'
-  # parent: [ ClothingEyesHudSecurity, BallisticGlasses ]
-  parent: ClothingEyesHudSecurity
+  parent: [ ClothingEyesHudSecurity, BallisticGlasses ]
   id: ClothingEyesGogglesTan
   name: ballistic goggles
   description: Robust ballistic goggles gitted with high-tech IFF detection and display, and advanced polymer lenses that provide welding protection. For true patriots. # Copy pasted from homeguard goggles, couldn't not leave this in.
