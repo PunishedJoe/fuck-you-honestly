@@ -19,9 +19,9 @@
     - 0,0,5,2
   - type: Gun # TODO make this function like goobstation lever action
     fireRate: 0.5
-    damageModifier: 1.5
+#    damageModifier: 1.5 doesn't work
     soundGunshot:
-      path: /Audio/Weapons/Guns/UnionfallWeapons/lever_fire.ogg
+      path: /Audio/_Battlefield14/Weapons/Guns/misc/lever_fire.ogg
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
