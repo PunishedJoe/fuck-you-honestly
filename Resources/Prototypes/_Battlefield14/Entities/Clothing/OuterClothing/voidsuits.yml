@@ -32,9 +32,7 @@
     weightlessModifier: 1.2
 
 - type: entity
-  # COMMENTED OUT: Missing parent 'BaseIntegratedManeuveringThrusters'
-  # parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
   id: ClothingOuterVoidsuitRussianCombat
   name: Russian 'Goida' Combat Voidsuit
   description: A combat voidsuit of Russian design, for their frontline soldiers in the final frontier.
@@ -70,18 +68,24 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetVoidsuitRussianCombat
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetVoidsuitRussianCombat
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: StaticPrice
     price: 4500
-  # COMMENTED OUT: ClothingAddFaction not supported (faction system not implemented)
-  # - type: ClothingAddFaction
-  #   faction: PACT
- # - type: ExtendDescription
-    descriptionList:
-    - description: "Maximum health: 750. Armour type: Metallic"
-      fontSize: 12
-      color: "#1c89b1"
-      requireDetailRange: true
+#   COMMENTED OUT: ClothingAddFaction not supported (faction system not implemented)
+#   - type: ClothingAddFaction
+#     faction: PACT
+#  - type: ExtendDescription
+#    descriptionList:
+#    - description: "Maximum health: 750. Armour type: Metallic"
+#      fontSize: 12
+#      color: "#1c89b1"
+#      requireDetailRange: true
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -129,9 +133,7 @@
       requireDetailRange: true
 
 - type: entity
-  # COMMENTED OUT: Missing parent 'BaseIntegratedManeuveringThrusters'
-  # parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase , BaseIntegratedManeuveringThrusters ]
   id: ClothingOuterVoidsuitAmericanCombatMarine
   name: Marine 'Devil Dog' Combat Voidsuit
   description: A combat voidsuit of American design, for their marine corps, with darker colours to blend into the backdrop of space.
@@ -167,15 +169,21 @@
     walkModifier: 0.9
     sprintModifier: 0.9
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetVoidsuitAmericanCombatMarine
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetVoidsuitAmericanCombatMarine
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: StaticPrice
     price: 4500
   # COMMENTED OUT: ClothingAddFaction not supported (faction system not implemented)
   # - type: ClothingAddFaction
   #   faction: NATO
- # - type: ExtendDescription
-    descriptionList:
-    - description: "Maximum health: 750. Armour type: Metallic"
-      fontSize: 12
-      color: "#1c89b1"
-      requireDetailRange: true
+#   - type: ExtendDescription
+#    descriptionList:
+#    - description: "Maximum health: 750. Armour type: Metallic"
+#      fontSize: 12
+#      color: "#1c89b1"
+#      requireDetailRange: true

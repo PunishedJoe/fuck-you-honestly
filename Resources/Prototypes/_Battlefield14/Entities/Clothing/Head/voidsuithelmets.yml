@@ -1,7 +1,7 @@
 - type: entity
   # COMMENTED OUT: Missing parent 'ClothingHeadHardsuitWithLightBaseNF'
   # parent: ClothingHeadHardsuitWithLightBaseNF
-  parent: ClothingHeadHardsuitBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetVoidsuitRussianCombat
   categories: [ HideSpawnMenu ]
   name: Russian combat voidsuit helmet
@@ -40,7 +40,7 @@
 - type: entity
   # COMMENTED OUT: Missing parent 'ClothingHeadHardsuitWithLightBaseNF'
   # parent: ClothingHeadHardsuitWithLightBaseNF
-  parent: ClothingHeadHardsuitBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetVoidsuitAmericanCombatMarine
   categories: [ HideSpawnMenu ]
   name: Marine combat voidsuit helmet

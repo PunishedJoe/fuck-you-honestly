@@ -1,0 +1,32 @@
+- type: entity
+  name: M320
+  parent: WeaponFlareGun
+  id: WeaponGrenadeLauncherUSM320
+  description: The United States replacement to the classic M203 that allows for loading of longer cartridges, which despite contract requirements is heavier than the M203.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Objects/Weapons/Guns/GrenadeLaunchers/M320.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Normal
+    sprite: _Battlefield14/Objects/Weapons/Guns/GrenadeLaunchers/M320.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Objects/Weapons/Guns/GrenadeLaunchers/M320.rsi
+  - type: ItemSlots
+    slots:
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - Grenade # Cartridge40x46mmGrenade
+            - LessLethalGrenade
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
