@@ -1,0 +1,73 @@
+# USMC
+
+- type: roleLoadout
+  id: JobUSMCSquadLeader
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_NATOIFF
+
+- type: roleLoadout
+  id: JobUSMCRifleman
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_NATOIFF
+
+- type: roleLoadout
+  id: JobUSMCAutomaticRifleman
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_NATOIFF
+
+- type: roleLoadout
+  id: JobUSMCRecon
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_NATOIFF
+
+- type: roleLoadout
+  id: JobUSMCMedic
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_NATOIFF
+
+# VDV
+
+- type: roleLoadout
+  id: JobVDVSquadLeader
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_PACTIFF
+
+- type: roleLoadout
+  id: JobVDVRifleman
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_PACTIFF
+
+- type: roleLoadout
+  id: JobVDVAutomaticRifleman
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_PACTIFF
+
+- type: roleLoadout
+  id: JobVDVRecon
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_PACTIFF
+
+- type: roleLoadout
+  id: JobVDVMedic
+  groups:
+  - BF_SoldierGloves
+  - BF_CombatMasks
+  - BF_PACTIFF

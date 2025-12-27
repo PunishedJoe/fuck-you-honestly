@@ -57,7 +57,8 @@
     ears: ClothingHeadsetAltUS
     belt: ClothingBeltMilitaryWebbingUSFilledSTANAG
     jumpsuit: ClothingUniformJumpsuitCamoUS
-    head: ClothingHeadHatSkullcrusher
+    head: ClothingHeadHatHelmetUS
+    helmetattachment: ClothingHelmetAttachmentNVGsBasic # TODO replace with BF14 version
     outerClothing: ClothingOuterArmorPlateCarrierTan
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackTan

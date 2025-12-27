@@ -22,7 +22,7 @@
     JetpackBlackFilled: 50
     FoodSnackNutribrick: 100
     DrinkMREFlask: 100
-    HandHeldMassScannerEE: 150
+    HandHeldMassScanner: 150
     Crowbar: 150
     OxygenTankFilled: 150
     ClothingEyesGogglesTan: 100
@@ -88,7 +88,7 @@
     JetpackBlackFilled: 50
     FoodSnackNutribrick: 100
     DrinkMREFlask: 100
-    HandHeldMassScannerEE: 150
+    HandHeldMassScanner: 150
     Crowbar: 150
     OxygenTankFilled: 150
     ClothingEyesGogglesGreen: 100

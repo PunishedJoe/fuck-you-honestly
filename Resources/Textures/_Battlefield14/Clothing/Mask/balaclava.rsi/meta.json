@@ -13,6 +13,10 @@
     {
       "name": "equipped-MASK",
       "directions": 4
+    },
+    {
+      "name": "equipped-BALACLAVA",
+      "directions": 4
     }
   ]
 }

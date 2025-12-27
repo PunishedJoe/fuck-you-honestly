@@ -57,7 +57,8 @@
     ears: ClothingHeadsetAltRU
     belt: ClothingBeltMilitaryWebbingRUFilledASVALShort
     jumpsuit: ClothingUniformJumpsuitCamoRUEMR
-    head: ClothingHeadHatSkullcrusher
+    head: ClothingHeadHatHelmetRUEMR
+    helmetattachment: ClothingHelmetAttachmentNVGsBasic # TODO replace with BF14 version
     outerClothing: ClothingOuterArmorPlateCarrierBlack
     shoes: ClothingShoesBootsJackFilled
     back: ClothingBackpackRucksackBlack

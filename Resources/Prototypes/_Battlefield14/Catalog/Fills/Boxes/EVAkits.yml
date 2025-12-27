@@ -21,7 +21,7 @@
       - id: ClothingOuterVoidsuitAmericanCombatMarine
       - id: ClothingShoesBootsMagCombatFilled
       - id: DoubleEmergencyOxygenTankFilled
-      - id: HandHeldMassScannerEE
+      - id: HandHeldMassScanner
       - id: HandheldGPSBasic
       - id: CrowbarRed
   - type: Sprite
@@ -52,7 +52,7 @@
       - id: ClothingOuterVoidsuitRussianCombat
       - id: ClothingShoesBootsMagCombatFilled
       - id: DoubleEmergencyOxygenTankFilled
-      - id: HandHeldMassScannerEE
+      - id: HandHeldMassScanner
       - id: HandheldGPSBasic
       - id: CrowbarRed
   - type: Sprite

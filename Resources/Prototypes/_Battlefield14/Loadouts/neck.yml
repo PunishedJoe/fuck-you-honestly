@@ -2,114 +2,42 @@
 
 - type: loadout
   id: LoadoutNeckIFFBlue
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFBlue
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "NATO"
+  equipment:
+    neck: ClothingNeckIFFBlue
 
 - type: loadout
   id: LoadoutNeckIFFBlueTape
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFtapeBlue
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "NATO"
+  equipment:
+    neck: ClothingNeckIFFtapeBlue
 
 - type: loadout
   id: LoadoutNeckIFFYellow
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - BF_ClothingNeckIFFYellow
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "NATO"
+  equipment:
+    neck: BF_ClothingNeckIFFYellow
 
 - type: loadout
   id: LoadoutNeckIFFYellowTape
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFtapeYellow
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "NATO"
+  equipment:
+    neck: ClothingNeckIFFtapeYellow
 
 # IFF | PACT
 
 - type: loadout
   id: LoadoutNeckIFFWhite
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFNeutral
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "PACT"
+  equipment:
+    neck: ClothingNeckIFFNeutral
 
 - type: loadout
   id: LoadoutNeckIFFWhiteTape
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFtapeWhite
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "PACT"
+  equipment:
+    neck: ClothingNeckIFFtapeWhite
 
 - type: loadout
   id: LoadoutNeckIFFRed
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFRed
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "PACT"
+  equipment:
+    neck: ClothingNeckIFFRed
 
 - type: loadout
   id: LoadoutNeckIFFRedTape
-  category: Neck
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingNeckIFFtapeRed
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "PACT"
+  equipment:
+    neck: ClothingNeckIFFtapeRed
