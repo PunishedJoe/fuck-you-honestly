@@ -12,6 +12,9 @@
   - type: Item
     size: Normal
     sprite: _Battlefield14/Objects/Weapons/Guns/GrenadeLaunchers/M320.rsi
+    storedSprite:
+      sprite: _Battlefield14/Objects/Weapons/Guns/GrenadeLaunchers/M320.rsi
+      state: storage
   - type: Clothing
     sprite: _Battlefield14/Objects/Weapons/Guns/GrenadeLaunchers/M320.rsi
   - type: ItemSlots
