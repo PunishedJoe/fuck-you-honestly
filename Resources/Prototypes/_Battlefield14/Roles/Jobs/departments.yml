@@ -3,7 +3,7 @@
   name: department-USMC-name
   description: department-USMC-description
   color: "#203564"
-  weight: 72
+  weight: 74
   roles:
   - USMCSquadLeader
   - USMCRifleman
