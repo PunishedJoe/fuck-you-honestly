@@ -1,13 +1,4 @@
 - type: loadout
   id: LoadoutHeadBeretVDV
-  category: Head
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingHeadHatBeretVDV
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutHead
-    # COMMENTED OUT: FactionRequirement not supported (faction system not implemented)
-    # - !type:FactionRequirement
-    #   factionID: "PACT" # Later restrict this to VDV department when that works again
+  equipment:
+    head: ClothingHeadHatBeretVDV

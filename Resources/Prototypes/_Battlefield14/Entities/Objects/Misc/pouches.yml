@@ -134,3 +134,5 @@
       Plastic: 100
   - type: StaticPrice
     price: 100
+  - type: ExplosionResistance # add to medical pouches too btw
+    damageCoefficient: 0.0

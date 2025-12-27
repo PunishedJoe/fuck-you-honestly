@@ -1,66 +1,27 @@
 - type: loadout
   id: LoadoutHandsGlovesSoldierBlack
-  category: Hands
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingHandsGlovesColorBlack
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves
-#    - !type:CharacterDepartmentRequirement # Uncomment when the fucking departments work again
-#      departments:
-#        - USMC
-#        - VDV
-#    - !type:FactionRequirement
-#      factionID: "NATO" # TODO: figure out how to add multiple factions at once
-#    - !type:CharacterJobRequirement
-#      inverted:true
-#      jobs:
-#        - Civilian
+  equipment:
+    gloves: ClothingHandsGlovesColorBlack
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierCombat
   category: Hands
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingHandsGlovesCombat
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves
+  equipment:
+    gloves: ClothingHandsGlovesCombat
 
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierFingerless
-  category: Hands
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingHandsGlovesFingerless
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves
+  equipment:
+    gloves: ClothingHandsGlovesFingerless
 
 - type: loadout
   id: LoadoutHandsGlovesSoldierMercCombat
-  category: Hands
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingHandsMercGlovesCombat
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves
+  equipment:
+    gloves: ClothingHandsMercenaryGlovesCombat
 
         
 - type: loadout
   id: LoadoutHandsGlovesSoldierMercFingerless
-  category: Hands
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingHandsGlovesMercFingerless
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves
+  equipment:
+    gloves: ClothingHandsGlovesMercFingerless

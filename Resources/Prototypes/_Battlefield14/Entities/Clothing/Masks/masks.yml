@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingBalaclavaBase
+  id: ClothingBalaclavaMilitary
+  name: military mask
+  description: A synthetic material balaclava, breathable and comfortable for hiding your face from vengeful militia close to your family.
+  components:
+  - type: Sprite
+    sprite: _Battlefield14/Clothing/Mask/balaclava.rsi
+  - type: Clothing
+    sprite: _Battlefield14/Clothing/Mask/balaclava.rsi
+    quickEquip: true
+    slots:
+    - BALACLAVA
+  - type: Item
+    size: Small
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Snout

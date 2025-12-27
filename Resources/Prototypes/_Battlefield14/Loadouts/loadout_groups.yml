@@ -1,0 +1,45 @@
+- type: loadoutGroup
+  id: BF_SoldierGloves
+  name: loadout-group-BF14-soldiergloves
+  minLimit: 0
+  loadouts:
+  - LoadoutHandsGlovesSoldierBlack
+  - LoadoutHandsGlovesSoldierFingerless
+  - LoadoutHandsGlovesSoldierCombat
+  - LoadoutHandsGlovesSoldierMercCombat
+  - LoadoutHandsGlovesSoldierMercFingerless
+
+- type: loadoutGroup
+  id: BF_CombatMasks
+  name: loadout-group-BF14-combatmask
+  minLimit: 0
+  loadouts:
+  - LoadoutMaskBF14NeckGaiter
+  - LoadoutMaskBF14MilitaryBalaclava
+
+- type: loadoutGroup
+  id: BF_NATOIFF
+  name: loadout-group-BF14-natoiff
+  minLimit: 0
+  loadouts:
+  - LoadoutNeckIFFBlue
+  - LoadoutNeckIFFBlueTape
+  - LoadoutNeckIFFYellow
+  - LoadoutNeckIFFYellowTape
+
+- type: loadoutGroup
+  id: BF_PACTIFF
+  name: loadout-group-BF14-pactiff
+  minLimit: 0
+  loadouts:
+  - LoadoutNeckIFFWhite
+  - LoadoutNeckIFFWhiteTape
+  - LoadoutNeckIFFRed
+  - LoadoutNeckIFFRedTape
+
+- type: loadoutGroup
+  id: BF_VDVHead
+  name: loadout-group-BF14-vdvhead
+  minLimit: 0
+  loadouts:
+  - LoadoutHeadBeretVDV

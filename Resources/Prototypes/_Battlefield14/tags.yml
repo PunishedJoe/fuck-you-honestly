@@ -59,7 +59,10 @@
   id: LightFighterEquipment
 
 - type: Tag
-  id: PistolMagazine # for all kinds of pistol magazines, this is used for pistol magazine pouches
+  id: PistolMagazine # for all kinds of pistol magazines, this is used for pistol magazine pouches  FitsInVoidsuitKit
 
 - type: Tag
   id: Magazine # generic tag for all magazine types
+
+- type: Tag
+  id: FitsInVoidsuitKit
