@@ -1,0 +1,15 @@
+- type: soundCollection
+  id: LobbyMusicBF14
+  files:
+    - /Audio/_Battlefield14/Lobby/littledarkage.ogg # ^
+    - /Audio/_Battlefield14/Lobby/artiljerija.ogg
+    - /Audio/_Battlefield14/Lobby/bloodtype.ogg
+    - /Audio/_Battlefield14/Lobby/kombat.ogg
+    - /Audio/_Battlefield14/Lobby/atas.ogg     # These were all in the 'rot jukebox but I moved them incase they were removed, a little bloaty but oh well
+    - /Audio/_Battlefield14/Lobby/fortunate.ogg
+    - /Audio/_Battlefield14/Lobby/bluemonday.ogg # V
+    - /Audio/_Battlefield14/Lobby/RebelYellInstrumental.ogg
+    - /Audio/_Battlefield14/Lobby/mod.flip-flap.ogg # suggestion
+#    - /Audio/_Battlefield14/Lobby/Schwarzflammen.ogg German Campaign
+#    - /Audio/_Battlefield14/Lobby/dixie.ogg # Second South update
+#    - /Audio/Lobby/leaving.ogg # Holy Russian Empire Update
