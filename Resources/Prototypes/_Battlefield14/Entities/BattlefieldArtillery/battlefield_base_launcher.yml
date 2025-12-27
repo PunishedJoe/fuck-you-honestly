@@ -51,7 +51,7 @@
     ports:
     - SpaceArtilleryFire
     - SpaceArtilleryLoad
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: BasicDevice
@@ -143,7 +143,7 @@
     ports:
     - SpaceArtilleryFire
     - SpaceArtilleryLoad
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: BasicDevice
@@ -241,7 +241,7 @@
     ports:
     - SpaceArtilleryFire
     - SpaceArtilleryLoad
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: BasicDevice

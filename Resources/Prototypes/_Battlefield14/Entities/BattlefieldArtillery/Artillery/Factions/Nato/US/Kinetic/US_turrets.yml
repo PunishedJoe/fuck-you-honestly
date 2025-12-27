@@ -28,7 +28,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 400
     powerUsePassive: 1200
     powerUseActive: 8000
@@ -98,7 +98,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/slammer.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 80
     powerUsePassive: 80
   - type: Actions
@@ -170,7 +170,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/slammer.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 100
     powerUsePassive: 100
   - type: Actions
@@ -238,7 +238,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/mortar.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 150
     powerUsePassive: 500
     powerUseActive: 0
@@ -302,7 +302,7 @@
       path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 120
     powerUsePassive: 400
     powerUseActive: 0
@@ -340,7 +340,7 @@
 
 # L/99 Bofors 40mm Cannon
 - type: entity
-  id: WeaponTurretBofors
+  id: WeaponTurretBofors40mm
   name: L/99 Bofors Cannon
   parent: BattlefieldArtilleryMagazine
   description: A modernized Bofors pattern autocannon retained through NATO standardization agreements. Adapted for naval and orbital defense roles. Long service lineage, incremental improvements, and familiar limitations. Remains in service largely due to projectile mass and institutional inertia.
@@ -366,7 +366,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/mortar.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 200
     powerUsePassive: 600
     powerUseActive: 0
@@ -430,7 +430,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
-  - type: BattlefieldArtillery
+  - type: SpaceArtillery
     powerChargeRate: 300
     powerUsePassive: 800
     powerUseActive: 5000
