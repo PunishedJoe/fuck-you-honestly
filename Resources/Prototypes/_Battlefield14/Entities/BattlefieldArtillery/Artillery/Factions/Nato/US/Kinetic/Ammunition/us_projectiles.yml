@@ -166,10 +166,10 @@
     shape: triangle
     radarColor: "#FF3300"
 
-# 40mm MK20 HE
+# 40x46mm MK20 HE
 - type: entity
-  id: Bullet40mmHE
-  name: 40mm HE grenade
+  id: Bullet40x46mmHE
+  name: 40x46mm HE grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -203,10 +203,10 @@
     shape: triangle
     radarColor: "#FF3300"
 
-# 40mm MK20 HEDP
+# 40x46mm MK20 HEDP
 - type: entity
-  id: Bullet40mmHEDP
-  name: 40mm HEDP grenade
+  id: Bullet40x46mmHEDP
+  name: 40x46mm HEDP grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -241,10 +241,10 @@
     shape: triangle
     radarColor: "#FF3300"
 
-# 40mm MK20 Fragmentation
+# 40x46mm MK20 Fragmentation
 - type: entity
-  id: Bullet40mmFrag
-  name: 40mm fragmentation grenade
+  id: Bullet40x46mmFrag
+  name: 40x46mm fragmentation grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -255,7 +255,7 @@
         Blunt: 25
     deleteOnCollide: true
   - type: HeFragProjectile
-    fillPrototype: Bullet40mmFragFragment
+    fillPrototype: Bullet40x46mmFragFragment
     capacity: 200
     randomAngle: true
     minVelocity: 8
@@ -284,10 +284,10 @@
     shape: triangle
     radarColor: "#FF3300"
 
-# 40mm MK20 Fragmentation Fragment
+# 40x46mm MK20 Fragmentation Fragment
 - type: entity
-  id: Bullet40mmFragFragment
-  name: 40mm fragment
+  id: Bullet40x46mmFragFragment
+  name: 40x46mm fragment
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -315,10 +315,10 @@
     shape: triangle
     radarColor: "#FF9900"
 
-# 40mm MK20 MP-APERS
+# 40x46mm MK20 MP-APERS
 - type: entity
-  id: Bullet40mmMPAPERS
-  name: 40mm MP-APERS grenade
+  id: Bullet40x46mmMPAPERS
+  name: 40x46mm MP-APERS grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -329,7 +329,7 @@
         Piercing: 20
     deleteOnCollide: true
   - type: HeFragProjectile
-    fillPrototype: Bullet40mmMPAPERSFragment
+    fillPrototype: Bullet40x46mmMPAPERSFragment
     capacity: 300
     randomAngle: true
     minVelocity: 10
@@ -358,9 +358,9 @@
     shape: triangle
     radarColor: "#FF3300"
 
-# 40mm MK20 MP-APERS Fragment
+# 40x46mm MK20 MP-APERS Fragment
 - type: entity
-  id: Bullet40mmMPAPERSFragment
+  id: Bullet40x46mmMPAPERSFragment
   name: MP-APERS fragment
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -496,4 +496,80 @@
     requireNoGrid: true
     shape: triangle
     radarColor: "#FF7700"
+
+# Plasma Gas Projectile Example - 40x46mm Plasma Gas Shell
+- type: entity
+  id: Bullet40x46mmPlasmaGas
+  name: 40x46mm plasma gas shell
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 150
+        Blunt: 100
+        Heat: 50
+    penetrationThreshold: 400
+    deleteOnCollide: false
+  - type: PlasmaGas
+    releaseDelay: 0  # Instant release after penetration stops
+    plasmaAmount: 150  # Moles of plasma gas
+    plasmaTemperature: 1500  # Kelvin - very hot to rapidly heat environment
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: grenade
+  - type: ShipWeaponProjectile
+  - type: TimedDespawn
+    lifetime: 6
+  - type: PointLight
+    radius: 3
+    color: purple
+    energy: 0.7
+  - type: RadarBlip
+    scale: 1.5
+    requireNoGrid: true
+    shape: triangle
+    radarColor: "#9900FF"
+
+# Chemical Smoke Projectile Example - 40x46mm Chemical Smoke Shell
+- type: entity
+  id: Bullet40x46mmChemicalSmoke
+  name: 40x46mm chemical smoke shell
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 80
+        Blunt: 50
+    penetrationThreshold: 300
+    deleteOnCollide: false
+  - type: ChemicalSmoke
+    releaseDelay: 0  # Instant release after penetration stops
+    duration: 40  # How long smoke lasts
+    spreadAmount: 60  # How much smoke spreads
+    smokePrototype: Smoke
+    solution:
+      reagents:
+      - ReagentId: TearGas  # Example chemical - can be changed in prototype
+        Quantity: 50
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: grenade
+  - type: ShipWeaponProjectile
+  - type: TimedDespawn
+    lifetime: 6
+  - type: PointLight
+    radius: 3
+    color: gray
+    energy: 0.5
+  - type: RadarBlip
+    scale: 1.5
+    requireNoGrid: true
+    shape: triangle
+    radarColor: "#666666"
 

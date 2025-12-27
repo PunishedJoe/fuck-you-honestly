@@ -342,29 +342,29 @@
     damageContainer: Inorganic
     damageModifierSet: Metallic
 
-# 40mm MK20 Automatic Grenade Launcher
+# 40x46mm MK20 Automatic Grenade Launcher
 - type: entity
-  id: Magazine40mmMK20
-  name: "40mm MK20 AGL magazine"
+  id: Magazine40x46mmMK20
+  name: "40x46mm MK20 AGL magazine"
   description: "An ammunition drum for the MK20 automatic grenade launcher."
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag
     tags:
-    - Magazine40mmMK20
+    - Magazine40x46mmMK20
   - type: Item
     size: Small
   - type: BallisticAmmoProvider
     infiniteUnspawned: true
-    proto: Cartridge40mmHE
+    proto: Cartridge40x46mmHE
     capacity: 1
     mayTransfer: true
     whitelist:
       tags:
-      - Cartridge40mmHE
-      - Cartridge40mmHEDP
-      - Cartridge40mmFrag
-      - Cartridge40mmMPAPERS
+      - Cartridge40x46mmHE
+      - Cartridge40x46mmHEDP
+      - Cartridge40x46mmFrag
+      - Cartridge40x46mmMPAPERS
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -384,17 +384,18 @@
     price: 1
 
 - type: entity
-  id: Cartridge40mmHE
-  name: cartridge (40mm HE)
+  id: Cartridge40x46mmHE
+  name: cartridge (40x46mm HE)
   parent: BaseCartridge
   components:
   - type: Tag
     tags:
     - Cartridge
-    - Cartridge40mmHE
+    - Cartridge40x46mmHE
+    - Cartridge40x46mmGrenade
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet40mmHE
+    proto: Bullet40x46mmHE
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
@@ -424,17 +425,18 @@
     damageModifierSet: Metallic
 
 - type: entity
-  id: Cartridge40mmHEDP
-  name: cartridge (40mm HEDP)
+  id: Cartridge40x46mmHEDP
+  name: cartridge (40x46mm HEDP)
   parent: BaseCartridge
   components:
   - type: Tag
     tags:
     - Cartridge
-    - Cartridge40mmHEDP
+    - Cartridge40x46mmHEDP
+    - Cartridge40x46mmGrenade
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet40mmHEDP
+    proto: Bullet40x46mmHEDP
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
@@ -464,17 +466,18 @@
     damageModifierSet: Metallic
 
 - type: entity
-  id: Cartridge40mmFrag
-  name: cartridge (40mm fragmentation)
+  id: Cartridge40x46mmFrag
+  name: cartridge (40x46mm fragmentation)
   parent: BaseCartridge
   components:
   - type: Tag
     tags:
     - Cartridge
-    - Cartridge40mmFrag
+    - Cartridge40x46mmFrag
+    - Cartridge40x46mmGrenade
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet40mmFrag
+    proto: Bullet40x46mmFrag
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
@@ -504,17 +507,18 @@
     damageModifierSet: Metallic
 
 - type: entity
-  id: Cartridge40mmMPAPERS
-  name: cartridge (40mm MP-APERS)
+  id: Cartridge40x46mmMPAPERS
+  name: cartridge (40x46mm MP-APERS)
   parent: BaseCartridge
   components:
   - type: Tag
     tags:
     - Cartridge
-    - Cartridge40mmMPAPERS
+    - Cartridge40x46mmMPAPERS
+    - Cartridge40x46mmGrenade
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet40mmMPAPERS
+    proto: Bullet40x46mmMPAPERS
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:

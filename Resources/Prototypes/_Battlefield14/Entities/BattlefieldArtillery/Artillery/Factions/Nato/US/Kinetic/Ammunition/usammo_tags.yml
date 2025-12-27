@@ -1,75 +1,3 @@
-# 20mm
-
-- type: Tag
-  id: Magazine20mm
-
-- type: Tag
-  id: 20mmCartridge
-
-# 30mm
-
-- type: Tag
-  id: Magazine30mm
-
-- type: Tag
-  id: 30mmCartridge
-
-# 57mm
-
-- type: Tag
-  id: Magazine57mm
-
-- type: Tag
-  id: 57mmCartridge
-
-# 90mm
-
-- type: Tag
-  id: Magazine90mm
-
-- type: Tag
-  id: 90mmCartridge
-
-# 220mm
-
-- type: Tag
-  id: 220mmCartridge
-
-# 255mm
-
-- type: Tag
-  id: 255mmCartridge
-
-# 150mm
-
-- type: Tag
-  id: 150mmShell
-
-# Railguns
-
-- type: Tag
-  id: CharonSlug
-
-# Missiles
-
-- type: Tag
-  id: VanykCartridge
-
-- type: Tag
-  id: VesperaCartridge
-
-- type: Tag
-  id: VesperaMagazine
-
-- type: Tag
-  id: TovekCartridge
-
-- type: Tag
-  id: Asm220Torpedo
-
-- type: Tag
-  id: LightFighterOrdinance
-
 # US Ship Weapons
 
 # 17.76mm Railgun
@@ -103,21 +31,24 @@
 - type: Tag
   id: Cartridge25mmHEIT
 
-# 40mm MK20 AGL
+# 40x46mm MK20 AGL
 - type: Tag
-  id: Magazine40mmMK20
+  id: Magazine40x46mmMK20
 
 - type: Tag
-  id: Cartridge40mmHE
+  id: Cartridge40x46mmGrenade
 
 - type: Tag
-  id: Cartridge40mmHEDP
+  id: Cartridge40x46mmHE
 
 - type: Tag
-  id: Cartridge40mmFrag
+  id: Cartridge40x46mmHEDP
 
 - type: Tag
-  id: Cartridge40mmMPAPERS
+  id: Cartridge40x46mmFrag
+
+- type: Tag
+  id: Cartridge40x46mmMPAPERS
 
 # 40mm L/99 Bofors
 - type: Tag

@@ -70,7 +70,7 @@
     shape: triangle
     radarColor: "#FF8800"
 
-# HEAT (High Explosive Anti-Tank) - Instant explosion after penetration
+# HEAT (High Explosive Anti-Tank)
 - type: entity
   id: ShipHeatProjectileInstant
   name: HEAT projectile
@@ -258,9 +258,9 @@
     shape: hexagon
     radarColor: "#FF8800"
 
-# Additional projectile types for variety
+# Additional projectile types
 
-# AP (Armor Piercing) - Basic high penetration round
+# AP (Armor Piercing) -
 - type: entity
   id: ShipApProjectile
   name: AP projectile
@@ -373,7 +373,7 @@
     shape: triangle
     radarColor: "#FF4400"
 
-# HESH (High Explosive Squash Head) - Explodes on contact but with penetration capability
+# HESH (High Explosive Squash Head)
 - type: entity
   id: ShipHeshProjectile
   name: HESH projectile
@@ -385,8 +385,7 @@
       types:
         Structural: 80
         Piercing: 30
-    penetrationThreshold: 200  # Limited penetration
-    deleteOnCollide: true  # Explodes on contact
+    penetrationThreshold: 200
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default

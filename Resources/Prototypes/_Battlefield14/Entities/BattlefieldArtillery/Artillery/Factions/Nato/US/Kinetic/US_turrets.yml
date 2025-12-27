@@ -28,7 +28,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 400
     powerUsePassive: 1200
     powerUseActive: 8000
@@ -98,7 +98,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/slammer.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 80
     powerUsePassive: 80
   - type: Actions
@@ -170,7 +170,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/slammer.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 100
     powerUsePassive: 100
   - type: Actions
@@ -238,7 +238,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/mortar.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 150
     powerUsePassive: 500
     powerUseActive: 0
@@ -302,7 +302,7 @@
       path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 120
     powerUsePassive: 400
     powerUseActive: 0
@@ -311,13 +311,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine40mmMK20
+        startingItem: Magazine40x46mmMK20
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-          - Magazine40mmMK20
+          - Magazine40x46mmMK20
         whitelistFailPopup: gun-magazine-whitelist-fail
   - type: Destructible
     thresholds:
@@ -366,7 +366,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/mortar.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 200
     powerUsePassive: 600
     powerUseActive: 0
@@ -430,7 +430,7 @@
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
-  - type: SpaceArtillery
+  - type: BattlefieldArtillery
     powerChargeRate: 300
     powerUsePassive: 800
     powerUseActive: 5000
