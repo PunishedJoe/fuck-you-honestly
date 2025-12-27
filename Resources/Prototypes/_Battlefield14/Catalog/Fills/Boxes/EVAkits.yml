@@ -1,5 +1,5 @@
 - type: entity
-  name: Marine EVA boarding Kit
+  name: Marine combat EVA kit
   parent: BoxCardboard
   id: EVAKitCombatUSMC
   description: A kit containing everything needed to survive and thrive in space. Marine edition.
@@ -19,7 +19,7 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterVoidsuitAmericanCombatMarine
-      - id: ClothingShoesBootsMagCombatFilled
+      - id: ClothingShoesBootsMagAshenFilled
       - id: DoubleEmergencyOxygenTankFilled
       - id: HandHeldMassScanner
       - id: HandheldGPSBasic
@@ -30,7 +30,7 @@
       - state: extendedtank
 
 - type: entity
-  name: Russian EVA boarding Kit
+  name: Russian combat EVA kit
   parent: BoxCardboard
   id: EVAKitCombatRU
   description: A kit containing everything needed to survive and thrive in space. Ruski edition.
@@ -47,10 +47,11 @@
         - Crowbar
         - Wrench
         - GPS
+        - GasTank
   - type: StorageFill
     contents:
       - id: ClothingOuterVoidsuitRussianCombat
-      - id: ClothingShoesBootsMagCombatFilled
+      - id: ClothingShoesBootsMagAshenFilled
       - id: DoubleEmergencyOxygenTankFilled
       - id: HandHeldMassScanner
       - id: HandheldGPSBasic

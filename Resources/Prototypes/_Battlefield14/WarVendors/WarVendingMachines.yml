@@ -16,19 +16,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -48,19 +47,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -80,19 +78,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -112,19 +109,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -144,19 +140,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -176,19 +171,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -208,19 +202,18 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
 
 - type: entity
   # COMMENTED OUT: Missing parent 'BaseStructureUnanchorable'
@@ -240,16 +233,15 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Speech
-  # COMMENTED OUT: Missing RSI '_Crescent/Structures/armory.rsi'
-  # - type: Sprite
-  #   sprite: _Crescent/Structures/armory.rsi
-  #   layers:
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.Base"]
-  #   - state: "off"
-  #     map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-  #     shader: unshaded
-  #   - state: panel
-  #     map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Sprite
+    sprite: _Battlefield14/Structures/armoury.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0.2
+    mod: 0
