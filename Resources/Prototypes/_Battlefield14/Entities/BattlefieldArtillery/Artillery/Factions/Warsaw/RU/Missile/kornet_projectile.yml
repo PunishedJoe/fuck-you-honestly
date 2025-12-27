@@ -1,0 +1,48 @@
+# Kornet-N Missile Projectile
+- type: entity
+  id: BulletKornetN
+  name: Kornet-N missile
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 520
+        Blunt: 320
+        Heat: 150
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: frag
+  - type: Ammo
+    muzzleFlash: MuzzleFlashEffectSmall
+  - type: ShipWeaponProjectile
+  - type: RadarBlip
+    radarColor: "#FF0000"
+    scale: 2
+    requireNoGrid: true
+    shape: hexagon
+  - type: TimedDespawn
+    lifetime: 8
+  - type: PointLight
+    radius: 4
+    color: orange
+    energy: 0.6
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 320
+    intensitySlope: 8
+    maxIntensity: 42
+    maxTileBreak: 3
+  - type: GatheringProjectile
+  - type: MiningGatheringSoft
+  - type: MiningGatheringHard
+  - type: TargetGuided
+    turnRate: 150
+    acceleration: 280
+    maxSpeed: 270
+    launchSpeed: 85
+    maxLifetime: 30
+

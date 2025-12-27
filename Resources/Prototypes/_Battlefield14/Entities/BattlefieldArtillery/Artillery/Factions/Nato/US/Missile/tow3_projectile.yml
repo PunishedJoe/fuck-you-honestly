@@ -1,0 +1,48 @@
+# TOW3 Missile Projectile
+- type: entity
+  id: BulletTOW3
+  name: TOW3 missile
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 500
+        Blunt: 300
+        Heat: 100
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: frag
+  - type: Ammo
+    muzzleFlash: MuzzleFlashEffectSmall
+  - type: ShipWeaponProjectile
+  - type: RadarBlip
+    radarColor: "#FCBA03"
+    scale: 2
+    requireNoGrid: true
+    shape: hexagon
+  - type: TimedDespawn
+    lifetime: 8
+  - type: PointLight
+    radius: 4
+    color: orange
+    energy: 0.6
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 300
+    intensitySlope: 8
+    maxIntensity: 40
+    maxTileBreak: 3
+  - type: GatheringProjectile
+  - type: MiningGatheringSoft
+  - type: MiningGatheringHard
+  - type: TargetGuided
+    turnRate: 120
+    acceleration: 250
+    maxSpeed: 250
+    launchSpeed: 80
+    maxLifetime: 30
+

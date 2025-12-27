@@ -1,0 +1,138 @@
+# 20mm
+
+- type: Tag
+  id: Magazine20mm
+
+- type: Tag
+  id: 20mmCartridge
+
+# 30mm
+
+- type: Tag
+  id: Magazine30mm
+
+- type: Tag
+  id: 30mmCartridge
+
+# 57mm
+
+- type: Tag
+  id: Magazine57mm
+
+- type: Tag
+  id: 57mmCartridge
+
+# 90mm
+
+- type: Tag
+  id: Magazine90mm
+
+- type: Tag
+  id: 90mmCartridge
+
+# 220mm
+
+- type: Tag
+  id: 220mmCartridge
+
+# 255mm
+
+- type: Tag
+  id: 255mmCartridge
+
+# 150mm
+
+- type: Tag
+  id: 150mmShell
+
+# Railguns
+
+- type: Tag
+  id: CharonSlug
+
+# Missiles
+
+- type: Tag
+  id: VanykCartridge
+
+- type: Tag
+  id: VesperaCartridge
+
+- type: Tag
+  id: VesperaMagazine
+
+- type: Tag
+  id: TovekCartridge
+
+- type: Tag
+  id: Asm220Torpedo
+
+- type: Tag
+  id: LightFighterOrdinance
+
+# US Ship Weapons
+
+# 17.76mm Railgun
+- type: Tag
+  id: Magazine1776mmRailgun
+
+- type: Tag
+  id: Cartridge1776mmRailgun
+
+# 12.7mm M5 Browning
+- type: Tag
+  id: Magazine127mmM5
+
+- type: Tag
+  id: Cartridge127mmAP
+
+# 20mm Phalanx CIWS
+- type: Tag
+  id: Magazine20mmPhalanx
+
+- type: Tag
+  id: Cartridge20mmPhalanx
+
+# 25mm M242 Bushmaster
+- type: Tag
+  id: Magazine25mmBushmaster
+
+- type: Tag
+  id: Cartridge25mmAPDS
+
+- type: Tag
+  id: Cartridge25mmHEIT
+
+# 40mm MK20 AGL
+- type: Tag
+  id: Magazine40mmMK20
+
+- type: Tag
+  id: Cartridge40mmHE
+
+- type: Tag
+  id: Cartridge40mmHEDP
+
+- type: Tag
+  id: Cartridge40mmFrag
+
+- type: Tag
+  id: Cartridge40mmMPAPERS
+
+# 40mm L/99 Bofors
+- type: Tag
+  id: Magazine40mmBofors
+
+- type: Tag
+  id: Cartridge40mmBofors
+
+# 120mm M256
+- type: Tag
+  id: Magazine120mmM256
+
+- type: Tag
+  id: Cartridge120mmAPFSDS
+
+# TOW3
+- type: Tag
+  id: TOW3Cartridge
