@@ -2,7 +2,7 @@
   id: GassyGas
   damagePerIntensity:
     types:
-      Caustic: 5
+      Caustic: 12
   tileBreakChance: [0, 0.5, 1]
   tileBreakIntensity: [0, 10, 30]
   tileBreakRerollReduction: 20
